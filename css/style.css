@@ -1,0 +1,65 @@
+/*css general */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #7d97ad;
+}
+
+/*css for texts */
+.text-thin {
+	font-weight: 100;
+}
+
+.text-uppercase{
+	margin-top: 2em;
+}
+
+.text-secondtitle {
+	padding-left:2%;
+	color: #7E93A3;
+	font-weight:400;
+	font-size: 38px;
+	margin-top: 1em;
+}
+
+.text-link {
+	color: #2D3C49;
+	font-size: 16px;
+	padding: 1em;
+	font-weight: 100;
+}
+
+
+.title-super {
+	font-size: 60px
+
+}
+
+.description-project {
+	font-size: 38px;
+	font-weight: 400;
+	color: #2D3C49;
+}
+
+.subtitle {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+/*css for images */
+.title-logo {
+	margin-top: 1.5em;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+/*css for other elements */
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: ##8096AA;
+    margin-top: 0.2em;
+    margin-bottom: 2.2em;
+}
