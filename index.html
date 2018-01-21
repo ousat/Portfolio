@@ -6,49 +6,59 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My Portfolio</title>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,500' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/modal.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/modal.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<img class="title-logo" src="images/logo.png" alt="Udacity Logo">
+			<header>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="title-logo" src="images/logo.png" alt="Udacity Logo">
+					</div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="title-super text-thin">Satish Kumar</h1>
+						<h4 class="subtitle">Full Stack Developer</h4>
+					</div>
 				</div>
-				<div class="col-md-6 text-right text-uppercase">
-					<h1 class="title-super text-thin">Satish Kumar</h1>
-					<h4 class="subtitle">Full Stack Developer</h4>
+				<div class="row">
+					<div class="col-md-12">
+						<hr class="hr">
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<hr class="hr">
+			</header>
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<img class="img-responsive" src="images/main.png" alt="Big Center Image">
+						<p class="img-paragraph" >This portfolio contains a responsive image and some links to github projects.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<img class="img-responsive" src="images/main.png" alt="Big Center Image">
+			</section>
+			<footer>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-secondtitle">Featured Work</h2>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-secondtitle">Featured Work</h2>
+				<div class="row text-center">
+					<div class="col-md-4">
+						<a href="https://github.com/sk15973/Project-Movie-Trailer-Website" data-toggle="tooltip" title="Click here to learn more about Movie Trailer Website project"> <img class="img-responsive" src="images/Octocat.png" alt="Appify Picture"></a>
+						<h3 class="text-uppercase description-project">Movie Trailer Website</h3>
+					</div>
+					<div class="col-md-4">
+						<a href="https://github.com/sk15973/Portfolio" data-toggle="tooltip" title="Click here to learn more about the Portfolio project"> <img class="img-responsive" src="images/conftocat.png" alt="Sunflower Picture"></a>
+						<h3 class="text-uppercase description-project">Portfolio</h3>
+					</div>
+					<div class="col-md-4">
+						<a href="#" data-toggle="tooltip" title="Future Projects will be updated soon"><img class="img-responsive" src="images/github_inc.png" alt="Sunflower Picture"></a>
+						<h3 class="text-uppercase description-project">Coming Soon</h3>
+					</div>
 				</div>
-			</div>
-
-			<div class="row text-center">
-				<div class="col-md-4">
-					<a href="https://github.com/sk15973/Project-Movie-Trailer-Website" data-toggle="tooltip" title="Click here to learn more about Movie Trailer Website project"> <img class="img-responsive" src="images/Octocat.png" alt="Appify Picture"></a>
-					<h3 class="text-uppercase description-project">Movie Trailer Website</h3>
-				</div>
-				<div class="col-md-4">
-					<a href="https://github.com/sk15973/Portfolio" data-toggle="tooltip" title="Click here to learn more about the Portfolio project"> <img class="img-responsive" src="images/Octocat.png" alt="Sunflower Picture"></a>
-					<h3 class="text-uppercase description-project">Portfolio</h3>
-				</div>
-			</div>
+			</footer>
 		</div>
 </body>
 </html>

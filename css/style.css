@@ -28,6 +28,9 @@ body {
 	font-weight: 100;
 }
 
+.img-paragraph{
+	color: #2D3C49;
+}
 
 .title-super {
 	font-size: 60px
@@ -59,7 +62,8 @@ body {
 hr {
     border: none;
     height: 5px;
-    background-color: ##8096AA;
+		color: #8096AA;
+    background-color: #8096AA;
     margin-top: 0.2em;
     margin-bottom: 2.2em;
 }
